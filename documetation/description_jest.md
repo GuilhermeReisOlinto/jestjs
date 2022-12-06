@@ -15,3 +15,10 @@ e passamos o que esperamos receber no final da função.
 EX: toBe() para compararmos valores esperados.
     toEqual() para comparar objetos, porque faz comparações profundas de forma recursiva.
     toBeNull() para quando quero que o retorno seja null.
+    toBeInstanceOf() para quando eu quero que o obj retornado seja uma instância do objeto original ou verificar de que instância ele é.
+    toBeDefined() para verificar se a propriedade esta definida.
+    toBeTruthy() usa quando não se importa com o valor mas quer verificar vai ser verdadeiro, lembrando que tudo isso é falso (false, 0, '', null, undefined e NaN.).  
+    toBeFalsy() verifica quando o retorno é falso.
+    toBeGreaterThan() Verifica se o retorno é maior
+    toBeGreaterThanOrEqual() Verifica se o retorno é igual
+    toBeLessThan() verifica se o retorno é menor
