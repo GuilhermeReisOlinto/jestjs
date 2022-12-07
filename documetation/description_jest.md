@@ -19,6 +19,11 @@ EX: toBe() para compararmos valores esperados.
     toBeDefined() para verificar se a propriedade esta definida.
     toBeTruthy() usa quando não se importa com o valor mas quer verificar vai ser verdadeiro, lembrando que tudo isso é falso (false, 0, '', null, undefined e NaN.).  
     toBeFalsy() verifica quando o retorno é falso.
-    toBeGreaterThan() Verifica se o retorno é maior
-    toBeGreaterThanOrEqual() Verifica se o retorno é igual
-    toBeLessThan() verifica se o retorno é menor
+    toBeGreaterThan() Verifica se o retorno é maior.
+    toBeGreaterThanOrEqual() Verifica se o retorno é igual.
+    toBeLessThan() verifica se o retorno é menor.
+    toBeLessThanEqual() verifica se é menor ou igual.
+    toBeCloseTo() Assim como o toBe() ele recebe e compara o numero a diferença é que o ele poemos definir quantas casas decimais              vamos verificar após a virgula, já que por padrão são usados 2 casas.
+    toBeHaveLength() Verifica o tamanho do array, e também pode verificar a quantidade de caracteres possui determinada string dentro do array
+    toContain() Irá verificar se contem o itém no array ou função, pode ser usado com numero e string
+    not. pode ser usado em qualquer um dos métodos, ele ira negar e fazer ao contrario do moetodo
