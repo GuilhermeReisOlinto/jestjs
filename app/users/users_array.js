@@ -1,3 +1,3 @@
 const users = ['Guilherme', 'Mirelly', 'Dara'];
 
-module.exports = users
+module.exports = users 
